@@ -2,7 +2,7 @@
 
 ## 📋 项目概述
 
-本项目是一个时间序列AI竞赛项目（竞赛链接：https://tianchi.aliyun.com/competition/entrance/231573），
+本项目是一个时间序列AI竞赛项目（[竞赛链接](https://tianchi.aliyun.com/competition/entrance/231573)，
 旨在预测基金的申购（流入）和赎回（流出）总金额。通过分析用户行为数据和市场数据，使用多种时间序列预测方法对2014年9月份的资金流动进行预测。
 
 **数据时间范围：** 2013年7月 - 2014年8月  
@@ -17,7 +17,7 @@
 | 文件名 | 大小 | 说明 |
 |------|-----|------|
 | `user_profile_table.csv` | ~1.5MB | 用户档案表，包含用户ID、性别、城市代码、星座等用户信息 |
-| `user_balance_table.csv` | >50MB | 用户余额表（核心数据），包含每个用户每日的申购、赎回等交易记录 |
+| `user_balance_table.csv` | >50MB | 用户余额表（核心数据），包含每个用户每日的申购、赎回等交易记录（文件大小超限，通过官网下载） |
 | `mfd_day_share_interest.csv` | - | 基金日利息表，每日份额利息数据 |
 | `mfd_bank_shibor.csv` | - | 银行间SHIBOR利率表，市场利率指标 |
 | `comp_predict_table.csv` | - | 竞赛预测表示例，定义了输出格式（report_date, total_purchase_amt, total_redeem_amt） |
